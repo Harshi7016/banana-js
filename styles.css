@@ -1,0 +1,16 @@
+*{
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
+}
+
+body {
+   background-color: rgba(231, 231, 20,0.5);
+}
+
+.textarea{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    padding: 2rem;
+    margin: 2rem;
+}
