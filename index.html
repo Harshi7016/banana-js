@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minion Translator</title>
+    <title>Translator</title>
     <link rel="stylesheet" href="./styles.css" />
 </head>
 
@@ -12,26 +12,39 @@
     <header class="header">
 
         <nav class="navigation">
-            <div class="nav-brand">Talk to Banana</div>
+            <div class="nav-brand">
+                Fun with JS ❤️
+            </div>
             <ul class="list non-bullet nav-pills">
-                <li class="list-item-inline">Talk to minions</li>
-                <li class="list-item-inline">Show Love</li>
+                <li class="list-item-inline active">
+                    <a class="link link-active" href="./index.html">Talk to minions</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link " href="./primeNumber.html">Check Prime Number</a>
+                </li>
             </ul>
         </nav>
     </header>
+    <div class="main-container">
+        <div class="image-minion">
+            <img class="image-minion" src="./minionemoji.png" />
+        </div>
+        <div class="container">
 
-    <div class="container">
-        <textarea id="text-input" class="textarea"
-            placeholder="text here in english to discover how minions talk in banana language"></textarea>
+            <textarea id="text-input" class="textarea"
+                placeholder="text here in english to discover how minions talk in banana language"></textarea>
 
-
-        <button id="btn-translate">Translate</button>
-
-        <div id="outputDiv">
-            😊 Output will appear here 😊
+            <div class="button-container">
+                <button id="btn-translate" class="button"> Translate to Banana </button>
+            </div>
+            <div id="outputDiv" class="output-div">
+                😊 Output will appear here 😊
+            </div>
+        </div>
+        <div class="image-minion">
+            <img class="image-minion" src="./minionemoji.png" />
         </div>
     </div>
-
     <script src="index.js" type="text/javascript"></script>
 </body>
 
