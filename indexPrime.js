@@ -3,7 +3,7 @@ var outputDivNumber = document.querySelector('#outputDivNumber');
 var btnCheckPrime = document.querySelector('#btn-check-prime');
 
 if (btnCheckPrime.innerText === '👇Check For Prime Number👇') {
-  document.body.style.background = 'grey';
+  document.body.style.background = '#E0E7FF';
 }
 
 const checkForPrimeNumber = () => {
