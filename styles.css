@@ -126,24 +126,31 @@ body {
 .footer {
     position : absolute;
     bottom : 0;
-    
     background-color: black;
-    
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
     
 }
 
+@media only screen and (min-width: 900px) {
+    .footer {
+       width: 100%;
+        
+    }
+  }
+
+
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
-    padding-bottom: 1.6rem;
+    padding-bottom: 1rem;
 }
 
 .footer .footer-content {
     display: flex;
     font-size: 0.8rem;
     padding: 0rem 1rem;
+    margin: 1rem 1rem;
     justify-content: center;
 }
