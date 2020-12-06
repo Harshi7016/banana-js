@@ -131,10 +131,10 @@ body {
     position : absolute;
     bottom : 0;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: black;
-    width: 100%;
-    padding: 2rem 1rem;
+    
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
