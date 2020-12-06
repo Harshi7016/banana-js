@@ -121,7 +121,7 @@ body {
     padding: 1rem 1rem;
     font-weight: 700;
     font-size: 1rem;
-    margin: 1rem;
+    margin: 0rem 1rem;
     border-radius: 5px;
     border: 1px solid white;
     cursor: pointer;
@@ -130,7 +130,7 @@ body {
 .footer {
     position : absolute;
     bottom : 0;
-    margin-top: 4rem;
+    width: 98%;
     background-color: black;
     padding: 2rem 1rem;
     text-align: center;
