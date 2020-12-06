@@ -87,7 +87,7 @@ body {
     height: 10vh;
     display: block;
     padding: 2rem 1rem;
-    margin: 3rem 1rem;
+    margin: 1.5rem 1rem;
 }
 
 .image-minion {
@@ -101,7 +101,7 @@ body {
     width: 80%;
     word-wrap: anywhere;
     padding: 2rem 1rem;
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
     background-color: white;
     border: black 1px solid;
     display: flex;
@@ -135,7 +135,7 @@ body {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
-    padding-bottom: 1.8rem;
+    padding-bottom: 1.6rem;
 }
 
 .footer .footer-content {
